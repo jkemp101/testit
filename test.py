@@ -88,7 +88,7 @@ def joe11(arg1, arg2, arg3, arg4, arg5):
 
 
 def in_the_middle(arg1):
-    return eval(arg1)
+    return exec(arg1)
 
 
 def joe12(arg1, arg2, arg3, arg4, arg5):
