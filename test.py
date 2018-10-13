@@ -86,6 +86,11 @@ def joe11(arg1, arg2, arg3, arg4, arg5):
     print arg1, arg2
     print arg1, arg2
 
+
+def in_the_middle(arg1):
+    return exec(arg1)
+
+
 def joe12(arg1, arg2, arg3, arg4, arg5):
     print arg1, arg2
     print arg1, arg2
@@ -238,13 +243,14 @@ def joe30(arg1, arg2, arg3, arg4, arg5):
     print arg1, arg2
     print arg1, arg2
 
-def joe31(arg1, arg2, arg3, arg4, arg5):
+def joe31(arg1, arg2, arg3, arg4, arg5, arg6):
     print arg1, arg2
     print arg1, arg2
     print arg1, arg2
     print arg1, arg2
     print arg1, arg2
     print arg1, arg2
+    print arg6
 
 def joe32(arg1, arg2, arg3, arg4, arg5):
     print arg1, arg2
@@ -253,3 +259,14 @@ def joe32(arg1, arg2, arg3, arg4, arg5):
     print arg1, arg2
     print arg1, arg2
     print arg1, arg2
+    print ('This should be fine')
+
+
+def joenew1(arg1, o, w, t, f, f):
+    print ('Hello world')
+
+
+class JoeClass(object):
+    def __init__(self):
+        print ('Initing')
+        return 1
