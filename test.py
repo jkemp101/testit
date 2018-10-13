@@ -264,3 +264,9 @@ def joe32(arg1, arg2, arg3, arg4, arg5):
 
 def joenew1(arg1, o, w, t, f, f):
     print ('Hello world')
+
+
+class JoeClass(object):
+    def __init__(self):
+        print ('Initing')
+        return 1
