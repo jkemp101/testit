@@ -238,7 +238,7 @@ def joe30(arg1, arg2, arg3, arg4, arg5):
     print arg1, arg2
     print arg1, arg2
 
-def joe31(arg1, arg2, arg3, arg4, arg5):
+def joe31(arg1, arg2, arg3, arg4, arg5, arg6):
     print arg1, arg2
     print arg1, arg2
     print arg1, arg2
