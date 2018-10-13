@@ -253,6 +253,7 @@ def joe32(arg1, arg2, arg3, arg4, arg5):
     print arg1, arg2
     print arg1, arg2
     print arg1, arg2
+    print ('This should be fine')
 
 
 def joenew1(arg1, o, w, t, f, f):
