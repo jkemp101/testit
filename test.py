@@ -255,5 +255,5 @@ def joe32(arg1, arg2, arg3, arg4, arg5):
     print arg1, arg2
 
 
-def joenew1(arg1):
+def joenew1(arg1, o, w, t, f, f):
     print ('Hello world')
